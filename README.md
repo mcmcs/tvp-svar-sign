@@ -1,7 +1,7 @@
 # tvp-svar-sign
 **Replication files for Inference Based on Time-Varying SVARs Identified with Sign Restrictions** by Jonas E. Arias, Juan F. Rubio-Ramirez, Minchul Shin, and Daniel F. Waggoner
 
-Here is the link to the local copy of the paper, [[Local copy]](https://mcmcs.github.io/papers/TV_SVAR.pdf)
+Here is the link to a local copy of the paper, [[Local copy]](https://mcmcs.github.io/papers/TV_SVAR.pdf)
 
 
 ***Important:*** Estimating our model takes a relatively long time. For reference, the estimation was performed using the following hardware specifications: Architecture: x86_64, CPU op-mode(s): 32-bit, 64-bit. Byte
