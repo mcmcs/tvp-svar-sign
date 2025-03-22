@@ -1,9 +1,10 @@
 # tvp-svar-sign
-Replication files for Inference Based on Time-Varying SVARs Identified with Sign Restrictions
+**Replication files for Inference Based on Time-Varying SVARs Identified with Sign Restrictions** by Jonas E. Arias, Juan F. Rubio-Ramirez, Minchul Shin, and Daniel F. Waggoner
 
-By Jonas E. Arias, Juan F. Rubio-Ramirez, Minchul Shin, and Daniel F. Waggoner
+Here is the link to the local copy of the paper, [[Local copy]](https://mcmcs.github.io/papers/TV_SVAR.pdf)
 
-***Important note:*** Estimating our model takes a relatively long time. For reference, the estimation was performed using the following hardware specifications: Architecture: x86_64, CPU op-mode(s): 32-bit, 64-bit. Byte
+
+***Important:*** Estimating our model takes a relatively long time. For reference, the estimation was performed using the following hardware specifications: Architecture: x86_64, CPU op-mode(s): 32-bit, 64-bit. Byte
 Order: Little Endian. CPU(s): 32. On-line CPU(s) list 0-15. Off-line CPU(s) list:
 16-31. Thread(s) per core: 1. Core(s) per socket: 16. Model Name: Intel(R) Xeon (R)
 Platinum 8488C. CPU MHz: 2400. BogoMIPS: 4800.00. We use the following software:
