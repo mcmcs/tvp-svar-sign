@@ -1,0 +1,63 @@
+Starting Dynare (version 6.1).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 10 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+6 block(s) found:
+  5 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Computing dynamic model derivatives (order 1).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+3 block(s) found:
+  2 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+
+Residuals of the static equations:
+Equation number  1: ytilde    :       0.000000
+Equation number  2: ppi       :       0.000000
+Equation number  3: R         :       0.000000
+Equation number  4: rn        :       0.000000
+Equation number  5: v         :       0.000000
+Equation number  6: a         :       0.000000
+Equation number  7: u         :       0.000000
+Equation number  8: ytildeobs :       0.000000
+Equation number  9: ppiobs    :      -2.000000
+Equation number 10: Robs      :       0.000000
+
+
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+          0.6235           0.6235                0
+             0.9              0.9                0
+             0.9              0.9                0
+           1.073            1.073                0
+           1.284            1.284                0
+
+There are 2 eigenvalue(s) larger than 1 in modulus for 2 forward-looking variable(s)
+The rank condition is verified.
+
+
+STEADY-STATE RESULTS:
+
+ytilde    		 0
+ppi       		 0
+R         		 0.0100503
+rn        		 0.0100503
+v         		 0
+a         		 0
+u         		 0
+ytildeobs 		 0
+ppiobs    		 2
+Robs      		 4.02013
+Total computing time : 0h00m00s

@@ -1,0 +1,142 @@
+Starting Dynare (version 5.0).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 7 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : ytilde
+Equation number 2 : 0 : ppi
+Equation number 3 : 0 : R
+Equation number 4 : 0 : rn
+Equation number 5 : 0 : v
+Equation number 6 : 0 : a
+Equation number 7 : 0 : u
+
+
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+          0.4237           0.4237                0
+             0.9              0.9                0
+             0.9              0.9                0
+           1.075            1.075                0
+           1.886            1.886                0
+
+
+There are 2 eigenvalue(s) larger than 1 in modulus 
+for 2 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+STEADY-STATE RESULTS:
+
+ytilde 		 0
+ppi    		 0
+R      		 0.0100503
+rn     		 0.0100503
+v      		 0
+a      		 0
+u      		 0
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : ytilde
+Equation number 2 : 0 : ppi
+Equation number 3 : 0 : R
+Equation number 4 : 0 : rn
+Equation number 5 : 0 : v
+Equation number 6 : 0 : a
+Equation number 7 : 0 : u
+
+
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+          0.4237           0.4237                0
+             0.9              0.9                0
+             0.9              0.9                0
+           1.075            1.075                0
+           1.886            1.886                0
+
+
+There are 2 eigenvalue(s) larger than 1 in modulus 
+for 2 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         7
+  Number of stochastic shocks: 3
+  Number of state variables:   4
+  Number of jumpers:           2
+  Number of static variables:  1
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables    vareps_v  vareps_a  vareps_u
+vareps_v     1.000000  0.000000  0.000000
+vareps_a     0.000000  1.000000  0.000000
+vareps_u     0.000000  0.000000  1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                              ytilde             ppi               R
+Constant                           0               0        0.010050
+R(-1)                      -2.005490       -1.727380        0.423737
+a(-1)                      -0.260863       -0.247213       -0.060514
+u(-1)                      -0.871153        0.997130        0.208020
+vareps_v                   -0.002359       -0.002032        0.000499
+vareps_a                   -0.000145       -0.000137       -0.000034
+vareps_u                   -0.000484        0.000554        0.000116
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+ytilde         0.0000     0.0032     0.0000
+ppi            0.0000     0.0024     0.0000
+R              0.0101     0.0007     0.0000
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+          vareps_v  vareps_a  vareps_u
+ytilde       64.43      0.25     35.32
+ppi          90.67      0.46      8.87
+R            59.35      3.17     37.48
+
+
+
+MATRIX OF CORRELATIONS
+Variables    ytilde     ppi       R
+ytilde       1.0000  0.6380 -0.9777
+ppi          0.6380  1.0000 -0.5907
+R           -0.9777 -0.5907  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+ytilde    0.6135  0.4307  0.3362  0.2808  0.2435
+ppi       0.4401  0.2013  0.0986  0.0537  0.0335
+R         0.6411  0.4672  0.3740  0.3169  0.2769
+Total computing time : 0h00m03s
