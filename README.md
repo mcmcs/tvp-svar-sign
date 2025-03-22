@@ -50,6 +50,6 @@ To replicate the results in the paper proceed as follows:
 
     Users interested in replicating the figures and the table in the paper without producing the draws can skip this step by downloading the following file:
 
-    [[Link to download result matrix for this step]](https://www.dropbox.com/scl/fi/ya3qqkkdc2rbgsop7m88k/temp_results_jointpr_rest115r3024ndraws200000.mat?rlkey=ce7taeoupvj4pb5g59ji08xjm&dl=0)
+    [[Link to download result file for this step]](https://www.dropbox.com/scl/fi/ya3qqkkdc2rbgsop7m88k/temp_results_jointpr_rest115r3024ndraws200000.mat?rlkey=ce7taeoupvj4pb5g59ji08xjm&dl=0)
 
     and place it in the following folder: `Baseline\online_appendix_V\Baseline_simulated_data\results\`
