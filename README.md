@@ -39,7 +39,7 @@ To replicate the results in the paper proceed as follows:
 
     To replicate the figures you must previously run the following m-file `Baseline\main_jointpr_2MPshocks_cspi_ood.m`
 
-    Users interested in replicating the figures and the table in the paper without producing the draws can skip this step. For users' convenience, the draws can be found here: ***
+    Users interested in replicating the figures and the table in the paper without producing the draws can skip this step. For users' convenience, the draws can be found here: `Baseline\results\temp_results_jointpr_2s_rest97_sam1r997ndraws1000000.mat`
 
 5. Run the m-file `Baseline\replicate_figure_V1.m` to reproduce the figure V.1.
 
@@ -47,7 +47,7 @@ To replicate the results in the paper proceed as follows:
 
     Users interested in replicating the figures and the table in the paper without rpoducing the draws can skip this step and can use the file described on step 1.
 
-6. Run the m-file `Baseline\online_appendix_V\Baseline_simulated_data` to reproduce the figure V.2.
+6. Run the m-file `Baseline\online_appendix_V\Baseline_simulated_data\replicate_figure_V2.m` to reproduce the figure V.2.
     To replicate the figures you must previusly run the following m-file: `Baseline\online_appendix_V\Baseline_simulated_data\main_jointpr_taylor.m`
 
     Users interested in replicating the figures and the table in the paper without producing the draws can skip this step by downloading the following file:
