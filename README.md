@@ -1,5 +1,5 @@
 
-# Replication files for Inference Based on Time-Varying SVARs Identified with Sign Restrictions
+## Replication files for Inference Based on Time-Varying SVARs Identified with Sign Restrictions
 by Jonas E. Arias, Juan F. Rubio-Ramirez, Minchul Shin, and Daniel F. Waggoner
 
 Here is the link to a local copy of the paper, [[Local copy]](https://mcmcs.github.io/papers/TV_SVAR.pdf)
